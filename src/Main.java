@@ -5,6 +5,7 @@ public class Main {
         task3();
         task4();
         task5();
+        task6();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -63,6 +64,19 @@ public class Main {
             if (month % 6 == 0) {
                 System.out.println("Месяц " + month + " накоплений получено " + initialAmount);
             }
+        }
+        System.out.println();
+    }
+    public static void task6 () {
+        System.out.println("Задача 6");
+        double initialAmount = 15000;
+        int month = 1;
+        for (int i = 96; month <= 96; i++) {
+            initialAmount += initialAmount * 0.07;
+            if (month % 6 == 0) {
+                System.out.println("Месяц " + month + " накоплений получено " + initialAmount);
+            }
+            month++;
         }
         System.out.println();
     }
