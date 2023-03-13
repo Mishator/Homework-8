@@ -6,6 +6,7 @@ public class Main {
         task4();
         task5();
         task6();
+        task7();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -71,7 +72,7 @@ public class Main {
         System.out.println("Задача 6");
         double initialAmount = 15000;
         int month = 1;
-        for (int i = 96; month <= 96; i++) {
+        for (int i = 108; month <= 108; i++) {
             initialAmount += initialAmount * 0.07;
             if (month % 6 == 0) {
                 System.out.println("Месяц " + month + " накоплений получено " + initialAmount);
@@ -79,5 +80,8 @@ public class Main {
             month++;
         }
         System.out.println();
+    }
+    public static void task7 () {
+        System.out.println("Задача 7");
     }
 }
