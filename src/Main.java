@@ -83,5 +83,11 @@ public class Main {
     }
     public static void task7 () {
         System.out.println("Задача 7");
+        int friday = 4;
+        do {
+            System.out.println("Сегодня пятница, " + friday + " -е число. Необходимо подготовить отчёт.");
+            friday +=  7;}
+        while (friday <= 31);
+        System.out.println();
     }
 }
