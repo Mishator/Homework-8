@@ -3,6 +3,7 @@ public class Main {
         task1();
         task2();
         task3();
+        task4();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -37,8 +38,18 @@ public class Main {
         int birthRate = increasPopulation / 1000 * 17;
         for (int i = 1; i <= 10; i++) {
             increasPopulation = increasPopulation - mortality + birthRate;
-            System.out.println("Год " + i + " численность населения составляет " + increasPopulation);
+            System.out.println("Год " + i + " численность населения составляет " + increasPopulation + " человек.");
         }
         System.out.println();
+    }
+    public static void task4 () {
+        System.out.println("Задача 4");
+        double initialAmount = 15000;
+        int month = 1;
+        while (initialAmount < 12_000_000) {
+            initialAmount += initialAmount * 0.07;
+            System.out.println(month + " Месяц " + " накоплений получено " + initialAmount);
+            month++;
+        }
     }
 }
