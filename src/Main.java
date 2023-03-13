@@ -7,6 +7,7 @@ public class Main {
         task5();
         task6();
         task7();
+        task8();
     }
     public static void task1 () {
         System.out.println("Задача 1");
@@ -89,5 +90,18 @@ public class Main {
             friday +=  7;}
         while (friday <= 31);
         System.out.println();
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+        int startYear = 2023 - 200;
+        int endYear = 2023 + 100;
+        int cometYear = 0;
+        while (cometYear < endYear) {
+            if (cometYear > startYear) {
+                System.out.println(cometYear);
+            }
+            cometYear += 79;
+        }
+
     }
 }
