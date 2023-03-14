@@ -9,6 +9,7 @@ public class Main {
         task7();
         task8();
     }
+
     public static void task1 () {
         System.out.println("Задача 1");
         int savingsFunds = 15000;
@@ -21,6 +22,7 @@ public class Main {
         }
         System.out.println();
     }
+
     public static void task2 () {
         System.out.println("Задача 2");
         int i = 1;
@@ -35,6 +37,7 @@ public class Main {
         System.out.println();
         System.out.println();
     }
+
     public static void task3 () {
         System.out.println("Задача 3");
         int increasPopulation = 12_000_000;
@@ -46,6 +49,7 @@ public class Main {
         }
         System.out.println();
     }
+
     public static void task4 () {
         System.out.println("Задача 4");
         double initialAmount = 15000;
@@ -57,6 +61,7 @@ public class Main {
         }
         System.out.println();
     }
+
     public static void task5 () {
         System.out.println("Задача 5");
         double initialAmount = 15000;
@@ -69,11 +74,12 @@ public class Main {
         }
         System.out.println();
     }
+
     public static void task6 () {
         System.out.println("Задача 6");
         double initialAmount = 15000;
         int month = 1;
-        for (int i = 108; month <= 108; i++) {
+        for (int i = 0; month <= 108; i++) {
             initialAmount += initialAmount * 0.07;
             if (month % 6 == 0) {
                 System.out.println("Месяц " + month + " накоплений получено " + initialAmount);
@@ -82,6 +88,7 @@ public class Main {
         }
         System.out.println();
     }
+
     public static void task7 () {
         System.out.println("Задача 7");
         int friday = 4;
@@ -91,6 +98,7 @@ public class Main {
         while (friday <= 31);
         System.out.println();
     }
+
     public static void task8 () {
         System.out.println("Задача 8");
         int startYear = 2023 - 200;
